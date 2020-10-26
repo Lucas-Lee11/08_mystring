@@ -6,3 +6,6 @@ main.o: main.c mystring.h
 
 euler.o: mystring.c mystring.h
 	gcc -c mystring.c
+
+run: string
+	./string
